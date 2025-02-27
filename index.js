@@ -29382,7 +29382,6 @@
 			this.width = width;
 			this.height = height;
 			this.left = left;
-			this.top = top + scrollY2;
 			this.camera.aspect = width / height;
 			this.camera.updateProjectionMatrix();
 			this.renderer.setSize(width, height);
